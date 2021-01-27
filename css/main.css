@@ -617,12 +617,18 @@ h1 {
     .offer-two__screen {
         display: none;
     }
+    h1 {
+        font-size: 200%;
+    }
+    .offer__paragraph {
+        font-size: 100%;
+    }
+    .offer__buttons {
+        font-size: 55%;
+    }
     .offer__buttons {
         margin-left: 35%;
         padding-bottom: 2%;
-    }
-    .offer__buttons {
-        font-size: 65%;
     }
     .two {
         font-size: 200%;
@@ -684,88 +690,6 @@ h1 {
         padding-top: 10%;
         font-size: 70%;
     }
-}
-
-@media (max-width: 375px) {
-    h1 {
-        font-size: 200%;
-    }
-    .offer__paragraph {
-        font-size: 100%;
-    }
-    .offer__buttons {
-        font-size: 55%;
-    }
-    .who {
-        height: 40px;
-    }
-    .two {
-        font-size: 150%;
-    }
-    .paragraph__reason {
-        font-size: 70%;
-    }
-    .help {
-        font-size: 75%;
-    }
-    .helping__container {
-        width: 100px;
-        height: 100px;
-        font-size: 90%;
-    }
-    .helping__wrapper {
-        width: 100px;
-        height: 100px;
-        font-size: 100%;
-    }
-    .plans {
-        font-size: 130%;
-    }
-    .plans__paragraph {
-        font-size: 70%;
-    }
-    .six__container {
-        display: inline-block;
-    }
-    .two__section {
-        display: inline-block;
-        text-align: center;
-    }
-    .reason__one {
-        padding-right: 5%;
-    }
-    .img__reason {
-        width: 50%;
-        height: 50%;
-        display: inline-block;
-        padding-top: 3%;
-    }
-    .know {
-        align-content: center;
-        display: inline-block;
-        align-items: center;
-    }
-    .know__img {
-        width: 50%;
-        height: 50%;
-        align-content: center;
-        display: inline-block;
-        align-items: center;
-    }
-    .seven {
-        text-align: center;
-    }
-    .know__title {
-        font-size: 80%;
-        padding-top: 3%;
-    }
-    .know__paragraph {
-        font-size: 100%;
-        padding-top: 5%;
-    }
-    .buttons__know {
-        padding-bottom: 5%;
-    }
     .contacts__wrapper {
         display: inline-block;
         align-items: center;
@@ -807,4 +731,87 @@ h1 {
         align-items: center;
         justify-content: center;
     }
+    .six__container {
+        display: inline-block;
+    }
+    .two__section {
+        display: inline-block;
+        text-align: center;
+    }
+    .reason__one {
+        padding-right: 5%;
+    }
+    .img__reason {
+        width: 50%;
+        height: 50%;
+        display: inline-block;
+        padding-top: 3%;
+    }
+    .know {
+        align-content: center;
+        display: inline-block;
+        align-items: center;
+    }
+    .know__img {
+        width: 50%;
+        height: 50%;
+        align-content: center;
+        display: inline-block;
+        align-items: center;
+    }
+    .seven {
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 200%;
+    }
+    .offer__paragraph {
+        font-size: 100%;
+    }
+    .offer__buttons {
+        font-size: 55%;
+    }
+    .who {
+        height: 40px;
+    }
+    .two {
+        font-size: 150%;
+    }
+    .paragraph__reason {
+        font-size: 70%;
+    }
+    .help {
+        font-size: 75%;
+    }
+    .helping__container {
+        width: 100px;
+        height: 100px;
+        font-size: 90%;
+    }
+    .helping__wrapper {
+        width: 100px;
+        height: 100px;
+        font-size: 100%;
+    }
+    .plans {
+        font-size: 130%;
+    }
+    .plans__paragraph {
+        font-size: 70%;
+    }
+    .know__title {
+        font-size: 80%;
+        padding-top: 3%;
+    }
+    .know__paragraph {
+        font-size: 100%;
+        padding-top: 5%;
+    }
+    .buttons__know {
+        padding-bottom: 5%;
+    }
+
 }
