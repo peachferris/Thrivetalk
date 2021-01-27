@@ -625,6 +625,8 @@ h1 {
     }
     .offer__buttons {
         font-size: 55%;
+        display: inline-block;
+        margin-left: 0;
     }
     .offer__buttons {
         margin-left: 35%;
