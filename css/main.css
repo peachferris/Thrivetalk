@@ -674,9 +674,10 @@ h1 {
         font-size: 135%;
     }
     .buttons__know {
-        padding-top: 10%;
-        font-size: 70%;
-    }
+    padding-top: 10%;
+    font-size: 70%;
+    padding-bottom: 10%;
+}
     .img__contact {
         margin-left: 9%;
     }
