@@ -617,6 +617,9 @@ h1 {
     .offer-two__screen {
         display: none;
     }
+    .do {
+    padding_right: 0;
+    }
     h1 {
         font-size: 200%;
     }
