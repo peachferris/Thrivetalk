@@ -14,16 +14,24 @@
     <div class="wrapper">
         <div class="one__screen" id="Home">
              <header class="header">
-            <img src="img/t-logo.svg" alt="Logo Thrivetalk" class="logo">
-
-            <ul class="list">
-                <a href="#Home" class="hover__list"><li class="list__item">Home</li></a>
-                <a href="#About" class="hover__list"><li class="list__item">About</li></a>
-                <a href="#Services" class="hover__list"><li class="list__item">Services</li></a>
-                <a href="#Blog" class="hover__list"><li class="list__item">Blog</li></a>
-            </ul>
-
-            <button type="submit" class="contact">CONTACT US</button>
+                <img src="img/t-logo.svg" alt="Logo Thrivetalk" class="logo">
+                <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+                    <ul class="menu__box">
+                        <a href="#Home" class="header__item"><li class="list__item">Home</li></a>
+                        <a href="#About" class="header__item"><li class="list__item">About</li></a>
+                        <a href="#Services" class="header__item"><li class="list__item">Services</li></a>
+                        <a href="#Blog" class="header__item"><li class="list__item">Blog</li></a>
+                        <a href="#" class="header__item header__item-contact"><li class="list__item list__item-contact">CONTACT US</li></a>
+                     </ul>
+                     <div class="spn__lst">
+                            <span class="span__list"></span>
+                        </div>    
+                </div>
+                <button type="submit" class="contact">CONTACT US</button> 
         </header>
 
         <section class="one__section">
